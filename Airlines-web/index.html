@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companhia Aérea - Modelo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!---- Termos e serviço-->
+    <div class="modal">
+        <article class="modal-container">
+            <header class="modal-container-header">
+                <span class="modal-container-title">
+                    <svg aria-hidden="true" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M14 9V4H5v16h6.056c.328.417.724.785 1.18 1.085l1.39.915H3.993A.993.993 0 0 1 3 21.008V2.992C3 2.455 3.449 2 4.002 2h10.995L21 8v1h-7zm-2 2h9v5.949c0 .99-.501 1.916-1.336 2.465L16.5 21.498l-3.164-2.084A2.953 2.953 0 0 1 12 16.95V11zm2 5.949c0 .316.162.614.436.795l2.064 1.36 2.064-1.36a.954.954 0 0 0 .436-.795V13h-5v3.949z" fill="currentColor"></path>
+                    </svg>
+                    Termos e Serviços
+                </span>
+                 <!-- Adicione esta seção para os termos -->
+            <section class="modal-container-body rtf">
+                <p>Nosso Site Utiliza Metodos de Pagamento<br> Tem certeza que deseja Continuar?</p>
+                <!-- Continue adicionando o conteúdo conforme necessário -->
+            </section>
+    
+            <footer class="modal-container-footer">
+                <button class="button is-ghost">Recusar</button>
+                <button class="button is-primary">Aceitar</button>
+            </footer>
+            </header>
+        </article>
+    </div>
+    
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://s.latamairlines.com/images/header/logo/DesktopNegative.svg" alt="Logo da Companhia Aérea">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Ofertas e Destinos</a></li>
+                    <li><a href="#">Minhas Viagens</a></li>
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">Status de Voos</a></li>
+                </ul>
+            </nav>
+            <button class="login-btn">Fazer login</button>
+        </div>
+    </header>
+
+    <!-- Seção de busca -->
+    <section class="search-section">
+        <form>
+            <div class="search-tabs">
+                <a href="voos.html" class="active">Voos</a>
+                <a href="pacotes.html">Pacotes</a>
+                <a href="hospedagem.html">Hospedagem</a>
+                <a href="carros.html">Carros</a>
+                <a href="seguros.html">Seguros</a>
+                <a href="upgrade.html">Upgrade</a>
+            </div>
+            
+            <div class="search-fields">
+                <input type="text" placeholder="Origem">
+                <input type="text" placeholder="Destino">
+                <input type="date" placeholder="Ida">
+                <input type="date" placeholder="Volta">
+                <button type="submit">Procurar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Seção de promoções -->
+    <section class="promotions">
+        <div class="promotion-card">
+            <img src="https://www.latamairlines.com/content/dam/latamxp/sites/promociones/hero/br/24_julho/aon/desk_aonv1.jpg" alt="Promoção 1">
+            <div class="info">
+                <h3>Santiago no Chile</h3>
+                <div class="icons">
+                    <span class="icon" aria-label="Ícone 1">
+                        <img src="src/svg/bed-outline.svg" alt="Ícone 1">
+                    </span>
+                    <span class="icon" aria-label="Ícone 2">
+                        <img src="src/svg/bus-outline.svg" alt="Ícone 2">
+                    </span>
+                    <span class="icon" aria-label="Ícone 3">
+                        <img src="src/svg/airplane-outline.svg" alt="Ícone 3">
+                    </span>
+                </div>
+                <p>Combo Hospedagem <span>R$ 1.900,00</span></p>
+                <button type="submit">Procurar</button>
+            </div>
+        </div>        
+        <div class="promotion-card">
+            <img src="https://www.latamairlines.com/content/dam/latamxp/sites/promociones/hero/br/24_julho/aon/desk_aonv1.jpg" alt="Promoção 1">
+            <div class="info">
+                <h3>Santiago do Chile</h3>
+                <div class="icons">
+                    <span class="icon" aria-label="Ícone 2">
+                        <img src="src/svg/airplane-outline.svg" alt="Ícone 2">
+                    </span>
+                </div>
+                <p>Voos ida e volta <span>R$ 900,00</span></p>
+                <button type="submit">Procurar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Companhia Aérea. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>

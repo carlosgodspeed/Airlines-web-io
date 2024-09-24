@@ -1,0 +1,255 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Para garantir que o modal fique acima do restante do conteúdo */
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #2d006d;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; /* Espaçamento entre os itens */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: #ff4b62;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #e43d50;
+}
+
+/* Seção de busca */
+.search-section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.search-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-tabs a {
+    background-color: #fff;
+    color: #2d006d;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; /* Não necessário, mas mantém a consistência */
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+.search-tabs a.active {
+    background-color: #2d006d;
+    color: white;
+}
+
+.search-tabs a:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Efeito de hover */
+}
+
+.search-fields {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-fields input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 15%;
+}
+
+.search-fields button {
+    background-color: #ff4b62;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-fields button:hover {
+    background-color: #e43d50;
+}
+
+
+/* Seção de promoções */
+.promotions {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.promotion-card {
+    background-color: rgba(194, 194, 194, 0.897);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    text-align: center;
+}
+
+.promotion-card img {
+    width: 100%;
+    height: auto;
+}
+
+.promotion-card .info {
+    padding: 20px;
+}
+
+.promotion-card .info h3 {
+    color: #2d006d;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex; /* Exibe os ícones em linha */
+    justify-content: center; /* Centraliza os ícones */
+    gap: 10px; /* Espaçamento entre os ícones */
+    margin: 10px 0; /* Margem acima e abaixo dos ícones */
+}
+
+.icon img {
+    width: 24px; /* Ajuste o tamanho dos ícones */
+    height: 24px; /* Ajuste o tamanho dos ícones */
+}
+
+
+.promotion-card .info p {
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #000000; /* Cor do texto, combina com o preço */
+    font-size: 1.2rem; /* Aumenta um pouco o tamanho da fonte */
+    padding: 4px 8px; /* Espaçamento interno */
+    border-radius: 4px; /* Cantos arredondados */
+    display: inline-block; /* Permite padding e background */
+}
+
+.promotion-card .info span {
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #253f16; /* Cor do texto, combina com o preço */
+    font-size: 1.2rem; /* Aumenta um pouco o tamanho da fonte */
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo leve para destacar */
+    padding: 4px 8px; /* Espaçamento interno */
+    border-radius: 4px; /* Cantos arredondados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    display: inline-block; /* Permite padding e background */
+}
+
+
+.promotion-card .info .price {
+    font-size: 1.2rem;
+    color: #ff4b62;
+    font-weight: bold;
+}
+
+.promotion-card .info button {
+    padding: 12px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 8px; /* Cantos arredondados */
+    background-color: #2d006d; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    font-weight: 600; /* Peso da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave para efeitos */
+}
+
+.promotion-card .info button:hover {
+    background-color: #ff4b62; /* Cor de fundo ao passar o mouse */
+    transform: translateY(-2px); /* Levanta ligeiramente o botão */
+}
+
+.promotion-card .info button:focus {
+    outline: none; /* Remove o contorno ao focar */
+    box-shadow: 0 0 0 3px rgba(117, 5, 80, 0.5); /* Sombra para indicar foco */
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #2d006d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
