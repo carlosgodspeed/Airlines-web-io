@@ -37,7 +37,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 80px;
 }
 
 nav ul {
@@ -253,3 +253,145 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* Seção de pacotes */
+.packages {
+    width: 90%;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.packages h2 {
+    font-size: 1.8rem;
+    color: #2d006d;
+    margin-bottom: 10px;
+}
+
+.packages p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter-options button {
+    background-color: #fff;
+    color: #2d006d;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-options button:hover {
+    background-color: #e5e5e5;
+}
+
+.packages-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.package-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.package-card img {
+    width: 100%;
+    height: auto;
+}
+
+.package-info {
+    padding: 15px;
+}
+
+.package-info h3 {
+    color: #2d006d;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.package-info p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.package-details {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.package-details .economy {
+    background-color: #ff4b62;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.package-details .points {
+    background-color: #fdd835;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.price {
+    color: #ff4b62;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #6d1b7b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.connection {
+    background-color: #9e45c4;
+}
+
+.buy-now-btn {
+    background-color: #2d006d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buy-now-btn:hover {
+    background-color: #ff4b62;
+    transform: translateY(-2px);
+}
+
+.buy-now-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(117, 5, 80, 0.5);
+}
+
