@@ -12,7 +12,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:#ccc;
     display: none; /* Inicialmente oculto */
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #2d006d;
+    background-color: #0d0a13;
     color: white;
     padding: 15px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -76,14 +76,14 @@ nav ul li a:hover {
 }
 
 .login-btn:hover {
-    background-color: #e43d50;
+    background-color: #2d006d;
 }
 
 /* Seção de busca */
 .search-section {
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
     margin-top: 20px;
     width: 85%;
     margin: 0 auto;
@@ -100,8 +100,8 @@ nav ul li a:hover {
 
 .search-tabs a {
     background-color: #fff;
-    color: #2d006d;
-    border: 1px solid #ccc;
+    color: #000000;
+    border: 1px solid #000000;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer; /* Não necessário, mas mantém a consistência */
@@ -111,12 +111,12 @@ nav ul li a:hover {
 }
 
 .search-tabs a.active {
-    background-color: #2d006d;
+    background-color: #ff4b62;
     color: white;
 }
 
 .search-tabs a:hover {
-    background-color: rgba(255, 255, 255, 0.8); /* Efeito de hover */
+    background-color: #ff4b62; /* Efeito de hover */
 }
 
 .search-fields {
@@ -143,7 +143,7 @@ nav ul li a:hover {
 }
 
 .search-fields button:hover {
-    background-color: #e43d50;
+    background-color: #2d006d;
 }
 
 
@@ -175,7 +175,7 @@ nav ul li a:hover {
 }
 
 .promotion-card .info h3 {
-    color: #2d006d;
+    color: #ff4b62;
     font-weight: bold;
 }
 
@@ -243,7 +243,7 @@ nav ul li a:hover {
 
 /* Rodapé */
 footer {
-    background-color: #2d006d;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -260,18 +260,18 @@ footer p {
     margin: 30px auto;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
     padding: 20px;
 }
 
 .packages h2 {
     font-size: 1.8rem;
-    color: #2d006d;
+    color: #ff4b62;
     margin-bottom: 10px;
 }
 
 .packages p {
-    color: #666;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -321,7 +321,7 @@ footer p {
 }
 
 .package-info h3 {
-    color: #2d006d;
+    color: #000000;
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -339,17 +339,17 @@ footer p {
 }
 
 .package-details .economy {
-    background-color: #ff4b62;
-    color: white;
+    background-color: #00f904;
+    color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
 .package-details .points {
-    background-color: #fdd835;
+    background-color: #f1fd00;
     padding: 5px 10px;
     border-radius: 5px;
-    color: #333;
+    color: #000000;
 }
 
 .price {
@@ -374,7 +374,7 @@ footer p {
 }
 
 .buy-now-btn {
-    background-color: #2d006d;
+    background-color: #ff4b62;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -386,7 +386,7 @@ footer p {
 }
 
 .buy-now-btn:hover {
-    background-color: #ff4b62;
+    background-color: #2d006d;
     transform: translateY(-2px);
 }
 
