@@ -2,9 +2,6 @@
 
 **Airlines-Web** é um projeto de site de passagens aéreas desenvolvido utilizando **HTML**, **CSS** e **JavaScript**. O objetivo é criar uma plataforma moderna e funcional para simulação de compras de passagens aéreas.
 
-## Status do Projeto
-O projeto está em andamento. Novas funcionalidades estão sendo adicionadas, e ajustes visuais estão em progresso.
-
 ## Tecnologias Utilizadas
 
 - **HTML**: Estrutura das páginas.
